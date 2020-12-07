@@ -1,0 +1,260 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #E8EBF0;
+}
+.title{
+  width: 100%;
+  height: 65px;
+  background-color: white;
+  font-size: 14px;
+  overflow: hidden;
+}
+.title #tContent{
+  margin: 20px 10px;
+}
+#tContent img{
+  width: 14px;
+  height: 14px;
+}
+.content{
+  width: 100%;
+  height: 100%;
+  margin-top: 20px;
+}
+.cTitle{
+  width: 172px;
+  height: 30px;
+ /* border: 1px solid;*/
+  display: flex;
+  justify-content: space-around;
+}
+.btn,.btn1{
+  background-color: white !important;
+}
+.btn{
+  width: 40px;
+  height: 30px;
+}
+.btn img{
+  width: 20px;
+  height: 20px;
+  display: block;
+  margin: 5px auto;
+}
+.btn1{
+  width: 112px;
+  height: 30px;
+  background: url("images/close.png") no-repeat;
+  background-position: right;
+
+}
+.btn1 p{
+  width: 100px;
+  text-align: center;
+  height: 28px;
+  line-height: 28px;
+  color: skyblue;
+}
+.cTop{
+  width: 100%;
+  height: 300px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.box,.box1,.box2{
+  width: 430px;
+  height: 280px;
+  position: relative;
+}
+.bTop{
+  width: 430px;
+  height:150px;
+  border-radius: 6px;
+  overflow: hidden;
+  background-color: white;
+}
+.bBottom{
+  width:430px;
+  height:110px;
+  margin-top:15px;
+  display: flex;
+  justify-content:space-between;
+  position: relative;
+}
+.left,.right{
+  width: 208px;
+  height:110px;
+  border-radius: 6px;
+  background-color: white;
+}
+.bTitle span{
+  height: 50px;
+  line-height: 50px;
+  position: absolute;
+  padding-left: 20px;
+  font-size: 14px;
+}
+.bTitle img{
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: 380px;
+  top:10px;
+}
+.bContent{
+  width: 430px;
+  height: 30px;
+  margin-top: 60px;
+
+}
+.lef{
+  padding-left: 20px;
+  font-size: 30px;
+}
+.rig{
+  padding-left: 125px;
+  font-size: 30px;
+}
+.bBot{
+  width: 430px;
+  height: 30px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+.leff{
+  padding-left: 20px;
+}
+.rigg{
+  padding-left: 270px;
+}
+.rigg1{
+  padding-left: 300px;
+}
+.rigg2{
+  padding-left: 260px;
+}
+.bBottom img{
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: 20px auto;
+}
+.bBottom p{
+  text-align: center;
+  font-size: 14px;
+  margin-top: -15px;
+}
+.cCenter{
+  width: 100%;
+  height: 450px;
+  margin-top: -10px;
+  overflow: hidden;
+  background-color: white;
+  position: relative;
+}
+.centTitle{
+  width: 100%;
+  height: 100px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.left1{
+  width: 300px;
+}
+.left1 .span1{
+  font-size: 25px;
+  padding-left: 20px;
+}
+.centTitle p{
+  background-color: red;
+  width: 40px;
+  text-align: center;
+  color: white;
+  border-radius: 25px;
+  position: absolute;
+  top: 22px;
+  left: 125px;
+}
+.centTitle .span3{
+  padding-left: 50px;
+  color: darkgray;
+}
+.right1 input{
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  border:1px solid skyblue;
+}
+.right1 button{
+  width: 70px;
+  height:30px;
+  border-radius: 5px;
+  color: white;
+  margin-right: 20px;
+  border:1px solid dodgerblue;
+  background-color: dodgerblue;
+}
+.cbottom{
+  width: 100%;
+  height: 400px;
+  background-color: white;
+  margin-top: 20px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.cbottom span{
+  font-size: 14px;
+  position: absolute;
+  left: 20px;
+  top:20px;
+}
+select{
+  width: 160px;
+  height: 28px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  appearance:none;
+  background: url("images/jiantou.png") no-repeat;
+  background-position: right;
+  background-size: 23px 14px;
+  position: absolute;
+  top:20px;
+  left: 90px;
+}
+.right2{
+  margin-top: 20px;
+  position: absolute;
+  right: 20px;
+}
+.right2 button{
+  width: 50px;
+  height: 30px;
+  border: 2px solid #2fa0ec;
+  border-radius: 5px;
+}
+.btn2{
+  background-color: white;
+}
+.btn3{
+  background-color: #2fa0ec;
+  color: white;
+}
+.footer{
+  margin-top: 20px;
+  background-color: white;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer p{
+  font-size: 14px;
+}
